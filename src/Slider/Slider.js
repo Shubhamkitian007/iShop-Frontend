@@ -18,7 +18,7 @@ const Slider = () => {
   }, [])
   return (
     <div>
-      <img className='imageSlider' src={allImage[selectImage]} alt="image Not Found"  />
+      <img className='imageSlider' src={allImage[selectImage]} alt="Not Found"  />
     </div>
   )
 }
