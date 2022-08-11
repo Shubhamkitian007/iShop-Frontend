@@ -9,7 +9,7 @@ import "./Style.css"
 
 const Slider = () => {
   const [selectImage, setSelectImage] = useState(0);
-  const [allImage, setAllImage] = useState([img1, img2, img3, img4, img5]);
+  const [allImage ] = useState([img1, img2, img3, img4, img5]);
 
   useEffect(() =>{
     setInterval(() => {
@@ -18,7 +18,7 @@ const Slider = () => {
   }, [])
   return (
     <div>
-      <img className='imageSlider' src={allImage[selectImage]} alt="image Not Found"/>
+      <img className='imageSlider' src={allImage[selectImage]} alt="image Not Found"  />
     </div>
   )
 }
