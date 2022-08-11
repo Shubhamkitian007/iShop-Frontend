@@ -29,7 +29,7 @@ const Mobile = () => {
                     <p>{data.name}</p><br />
                 </div>
                 <div className='ratting-section'>
-                    <img src={data.ratting} style={{width: "120px"}} /> <br />
+                    <img src={data.ratting} alt="Not Found" style={{width: "120px"}} /> <br />
                 </div>
                 <div className='price-section'>
                     <p className='price'>{data.price}</p>  
