@@ -4,6 +4,7 @@ import Ipad from './Ipad';
 import Accessories from './Accessories';
 import MacBook from './MacBook';
 import Laptop from './Laptop';
+import Slider from '../Slider/Slider';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Mobile />
         <Laptop />
         <Ipad />
+        <Slider />
         <MacBook />
         <Accessories />
 
